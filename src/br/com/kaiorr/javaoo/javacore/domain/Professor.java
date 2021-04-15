@@ -1,6 +1,6 @@
-package br.com.kaiorr.javaoo.domain;
+package br.com.kaiorr.javaoo.javacore.domain;
 
-public class Estudante {
+public class Professor {
     public String name;
     public int age;
     public char gender;

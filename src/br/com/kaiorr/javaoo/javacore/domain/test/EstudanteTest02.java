@@ -1,6 +1,6 @@
-package br.com.kaiorr.javaoo.test;
+package br.com.kaiorr.javaoo.javacore.domain.test;
 
-import br.com.kaiorr.javaoo.domain.Estudante;
+import br.com.kaiorr.javaoo.javacore.domain.Estudante;
 
 public class EstudanteTest02 {
     public static void main(String[] args) {

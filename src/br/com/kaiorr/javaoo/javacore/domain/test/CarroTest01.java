@@ -1,6 +1,6 @@
-package br.com.kaiorr.javaoo.test;
+package br.com.kaiorr.javaoo.javacore.domain.test;
 
-import br.com.kaiorr.javaoo.domain.Carro;
+import br.com.kaiorr.javaoo.javacore.domain.Carro;
 
 public class CarroTest01 {
     public static void main(String[] args) {

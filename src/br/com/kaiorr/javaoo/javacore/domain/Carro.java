@@ -1,4 +1,4 @@
-package br.com.kaiorr.javaoo.domain;
+package br.com.kaiorr.javaoo.javacore.domain;
 
 public class Carro {
     public String nome;
