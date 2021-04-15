@@ -6,3 +6,4 @@
 ### Método
 
 - [  ] Método sem retorno ``void``, comparando com o JS é uma função que não retorna nada.
+- [  ] Passando parâmetros para métodos.
