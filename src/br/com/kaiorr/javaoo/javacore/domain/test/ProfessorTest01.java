@@ -1,7 +1,6 @@
 package br.com.kaiorr.javaoo.javacore.domain.test;
 
-import br.com.kaiorr.javaoo.javacore.domain.Professor;
-import br.com.kaiorr.javaoo.metodos.Calculadora01;
+import br.com.kaiorr.javaoo.metodos.domain.Calculadora01;
 
 public class ProfessorTest01 {
     public static void main(String[] args) {

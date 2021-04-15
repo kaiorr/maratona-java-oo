@@ -1,4 +1,6 @@
-package br.com.kaiorr.javaoo.metodos;
+package br.com.kaiorr.javaoo.metodos.test;
+
+import br.com.kaiorr.javaoo.metodos.domain.Calculadora01;
 
 public class CalculadoraTest01 {
     public static void main(String[] args) {
