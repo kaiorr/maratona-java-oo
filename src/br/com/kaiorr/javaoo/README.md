@@ -15,3 +15,6 @@ para o mesmo objeto.
 
 - [x] Criando referência dentro do objeto, utilizando a variável de referência ``this``, é feito dentro do mesmo obbjeto
 a referência.
+  
+- [x] Utilizando método de Array com ``varArgs`` onde a diferença está somente na forma como é feito a chamada, e ao 
+para o array como parâmetro no método.

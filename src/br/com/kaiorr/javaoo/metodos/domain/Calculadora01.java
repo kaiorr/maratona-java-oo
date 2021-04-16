@@ -19,4 +19,20 @@ public class Calculadora01 {
         }
         return num1/num2;
     }
+
+    public void somaArray(int[] numeros) {
+        int soma = 0;
+        for (int num: numeros ) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+    public void arrayVarArgs(int... numeros) {
+        int soma = 0;
+        for (int num: numeros) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
 }
