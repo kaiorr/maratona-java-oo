@@ -12,3 +12,6 @@ uam variável do tipo ``primitivo`` a variável original nunca será alterada, n
   
 - [x] Criado um método de referência para objetos distintos no ``ImpressoraEstudante``. Podem existir várias referêcias 
 para o mesmo objeto.
+
+- [x] Criando referência dentro do objeto, utilizando a variável de referência ``this``, é feito dentro do mesmo obbjeto
+a referência.
