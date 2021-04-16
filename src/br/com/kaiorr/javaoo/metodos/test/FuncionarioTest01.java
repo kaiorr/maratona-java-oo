@@ -8,9 +8,8 @@ public class FuncionarioTest01 {
 
         funcionario.nome = "Kaio";
         funcionario.idade = 32;
-        funcionario.salarios = new double[] {1200, 3555, 4666};
+        funcionario.salarios = new double[]{12557, 55598};
 
         funcionario.imprimeFuncionario();
-        funcionario.mediaSalario();
     }
 }
