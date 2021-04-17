@@ -7,10 +7,15 @@ public class Anime {
     private String genero;
 
     public Anime(String nome, String tipo, int episodios, String genero) {
+        this();
         this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
         this.genero = genero;
+    }
+
+    public Anime() {
+        System.out.println("Detro do construtor sem argumento");
     }
 
     public void imprime() {
