@@ -33,4 +33,6 @@ Uma das formas de garantir um baixo acoplamento utilizando modificadores de aces
 
 ### Construtor
 
-- [x] Não pode haver retorno com o mesmo nome da Classe.
+- [x] Não pode haver retorno e sempre terá o mesmo nome da Classe. Quando houver necessidade de realizar a sobrecarga de 
+construtor o ``this()`` é obrigatório que seja a primeira linha, dentro os tipos obrigatórios do construtor herdado.
+  
