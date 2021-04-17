@@ -6,14 +6,10 @@ public class Anime {
     private int episodios;
     private String genero;
 
-    public void init(String nome, String tipo, int episodios) {
+    public Anime(String nome, String tipo, int episodios, String genero) {
         this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
-    }
-
-    public void init(String nome, String tipo, int episodios, String genero) {
-        this.init(nome, tipo, episodios);
         this.genero = genero;
     }
 
