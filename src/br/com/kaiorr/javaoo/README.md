@@ -55,3 +55,8 @@ pela JVM antes mesmo de algum objeto ser carregado em memória.
 
 - [x] O bloco de inicialização static é executado pela JVM quando carregar a classe. Independente da quantidade de blocos inicialização
 estáticos os mesmos serão executados apenas uma vez.
+  
+### Associação Unidimensional
+
+- [x] Utilizado de um para muitos, no exemplo JogadorTest1 e JogadorTest2 é utilizado exemplo de 1 jogador pode pertencer somente a 1 time, 
+porém 1 Time pode ter vários jogadores, conforme descrito no exemplo foi realizado tratamento da classe Jogador e Time.
