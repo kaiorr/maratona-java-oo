@@ -48,5 +48,10 @@ o valor do atributo, será alterado para todos os objetos da classe.
   
 ### Método Static
 
-- [x] Método estático não pode acessar atributos de instância, porquê somente pode acessar variáveis estáticas que não existem
-em memória
+- [x] Método estático não pode acessar atributos de instância, porquê somente pode acessar variáveis estáticas são carregadas
+pela JVM antes mesmo de algum objeto ser carregado em memória.
+  
+### Bloco Inicialização Estático
+
+- [x] O bloco de inicialização static é executado pela JVM quando carregar a classe. Independente da quantidade de blocos inicialização
+estáticos os mesmos serão executados apenas uma vez.
