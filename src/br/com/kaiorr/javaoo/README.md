@@ -40,3 +40,8 @@ construtor o ``this()`` é obrigatório que seja a primeira linha, dentro os tip
 
 - [x] Utilizado para alocar espaço em memória para o objeto. Cada atributo de classe é criado e inicializado com valores
 default ou que for passado. Bloco de inicialização é executado. Construtor é executado.
+  
+### Modificador de Acesso Static
+
+- [x] Faz com que algum atributo pertença direto a classe, todos os objetos vão compartilhar do mesmo valor, caso for alterado
+o valor do atributo, será alterado para todos os objetos da classe.
