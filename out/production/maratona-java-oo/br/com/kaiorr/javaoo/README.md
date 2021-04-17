@@ -30,3 +30,7 @@ Uma das formas de garantir um baixo acoplamento utilizando modificadores de aces
 ### Sobrecarga de Método
 
 - [x] É quando possuir o mesmo método com mesmo nome, porém o tipo ou quantidade de parâmetros é diferente do método original.
+
+### Construtor
+
+- [x] Não pode haver retorno com o mesmo nome da Classe.
