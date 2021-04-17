@@ -2,16 +2,40 @@ package br.com.kaiorr.javaoo.javacore.domain.associacao.domain;
 
 public class Time {
     private String nome;
+    private Jogador[] jogadores;
 
     public Time(String nome) {
         this.nome = nome;
     }
 
-    public void setNome(String nome){
-        this.nome= nome;
+    public Time(String nome, Jogador[] jogadores) {
+        this.nome = nome;
+        this.jogadores = jogadores;
     }
 
-    public String getNome(){
-        return this.nome;
+    public void imprime() {
+        this.nome = nome;
+        if(jogadores == null) {
+            return;
+        };
+        for(Jogador jogador: jogadores) {
+            System.out.println(jogador.getNome());
+        }
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setJogadores(Jogador[] jodadores) {
+        this.nome = nome;
+    }
+
+    public Jogador[] getJogadores() {
+        return jogadores;
     }
 }
