@@ -45,3 +45,8 @@ default ou que for passado. Bloco de inicialização é executado. Construtor é
 
 - [x] Faz com que algum atributo pertença direto a classe, todos os objetos vão compartilhar do mesmo valor, caso for alterado
 o valor do atributo, será alterado para todos os objetos da classe.
+  
+### Método Static
+
+- [x] Método estático não pode acessar atributos de instância, porquê somente pode acessar variáveis estáticas que não existem
+em memória
