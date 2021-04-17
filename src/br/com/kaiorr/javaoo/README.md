@@ -25,4 +25,4 @@ para o array como parâmetro no método.
 Uma das formas de garantir um baixo acoplamento utilizando modificadores de acesso. Exemplo atributos ``private`` onde
   os atributos de determinado objeto pode ser acessado dentro do mesmo.
   Como introdução do baixo acoplamento será utilizado e modificador de acesso private, então será utilizado ``get`` e ``set``
-  para atribuir valor.
+  para atribuição de valor.
