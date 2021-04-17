@@ -33,4 +33,10 @@ Uma das formas de garantir um baixo acoplamento utilizando modificadores de aces
 
 ### Construtor
 
-- [x] Não pode haver retorno com o mesmo nome da Classe.
+- [x] Não pode haver retorno e sempre terá o mesmo nome da Classe. Quando houver necessidade de realizar a sobrecarga de 
+construtor o ``this()`` é obrigatório que seja a primeira linha, dentro os tipos obrigatórios do construtor herdado.
+  
+### Bloco de Inicialização
+
+- [x] Utilizado para alocar espaço em memória para o objeto. Cada atributo de classe é criado e inicializado com valores
+default ou que for passado. Bloco de inicialização é executado. Construtor é executado.
