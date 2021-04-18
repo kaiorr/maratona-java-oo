@@ -68,3 +68,5 @@ porém 1 Time pode ter vários jogadores, conforme descrito no exemplo foi reali
 - [x] Herança é quando feito extensão de funcionalidade de uma classe causando um forte acoplamento, então é mais utilizado polimorfismo,
 herança utilizado somente quando de fato é necessário extender uma outra classe.
   
+- [x] Sobrescrita com ``super`` exemplo: A super Classe ``Pessoa`` realiza impressão de todos seus atributos enquanto a classe ``Funcionario``
+extende os atributos de pessoa, porém também precisa realizar a impressão de seu atributo que é ``salario``. 
