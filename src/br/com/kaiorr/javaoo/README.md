@@ -70,3 +70,22 @@ herança utilizado somente quando de fato é necessário extender uma outra clas
   
 - [x] Sobrescrita com ``super`` exemplo: A super Classe ``Pessoa`` realiza impressão de todos seus atributos enquanto a classe ``Funcionario``
 extende os atributos de pessoa, porém também precisa realizar a impressão de seu atributo que é ``salario``. 
+  
+- [x] Contructor: Toda vez que for adicionado um construtor a classe mãe, obrigatoriamente será necessário alterar em todas as classes filhas.
+
+- [x] Sequência de Inicialização: 
+  - [0] Bloco de estático da super classe é executada quando a JVM carregar a classe pai.
+  - [1] Bloco inicialização estático da subclasse é executada quando a JVM carregar a classe filha.
+  - [2] Alocado espaço em memória pro objeto da superclasse.
+  - [3] Cada atributo da superclasse é executado na ordem em que aparece.
+  - [4] Bloco de inicialização da superclase é executado na ordem em que aparece
+  - [5] Construtor é executado da superclasse.
+  - [6] Alocado espaço em memória pro objeto da subclasse.
+  - [7] Cada atributo da subclasse é cirado e inicializado em valores default.
+  - [8] Bloco de inicialização da subclasse é executado na ordem em que aparece.
+  - [9] Construtor é executado da subclasse.
+  
+### Sobrescrita método toString()
+
+- [x] método nativo para sobrescita de atributos, onde é necessário utilização do ``Override`` para informar caso seja importado
+o método com nome diferente do nativo.
