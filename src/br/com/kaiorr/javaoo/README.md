@@ -62,3 +62,9 @@ estáticos os mesmos serão executados apenas uma vez.
 porém 1 Time pode ter vários jogadores, conforme descrito no exemplo foi realizado tratamento da classe Jogador e Time.
   
 - [x] Muitos para Um, exemplificado pelas classes Escola, Professor.
+
+### Herança
+
+- [x] Herança é quando feito extensão de funcionalidade de uma classe causando um forte acoplamento, então é mais utilizado polimorfismo,
+herança utilizado somente quando de fato é necessário extender uma outra classe.
+  
