@@ -89,3 +89,9 @@ extende os atributos de pessoa, porém também precisa realizar a impressão de 
 
 - [x] método nativo para sobrescita de atributos, onde é necessário utilização do ``Override`` para informar caso seja importado
 o método com nome diferente do nativo.
+  
+### Modificador Final
+
+- [x] Para definir constante. Ex: Objeto Carro, atributo ``VELOCIDADE_LIMITE = 250``. 
+- [x] Geralmente utilizado para implementar padrão de projeto ``Singleton``.
+- [x] 
