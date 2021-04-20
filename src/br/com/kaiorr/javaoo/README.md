@@ -94,4 +94,5 @@ o método com nome diferente do nativo.
 
 - [x] Para definir constante. Ex: Objeto Carro, atributo ``VELOCIDADE_LIMITE = 250``. 
 - [x] Geralmente utilizado para implementar padrão de projeto ``Singleton``.
-- [x] 
+- [x] Caso alguma classe estiver com modificador ``final`` não pode ser extendida.
+- [x] Caso for utilizado em algum método, não será possível realizar a sobrescrita do método.
