@@ -13,5 +13,7 @@ public class ClienteTest01 {
         System.out.println(cliente1 + " " + "Valor Desconto: R$" + TipoPagamento.DEBITO.calcularDesconto(2859));
         System.out.println(cliente2 + " " + "Valor Desconto: R$" + TipoPagamento.CREDITO.calcularDesconto(100));
         System.out.println(cliente3 + " " + "Valor Desconto: R$" + TipoPagamento.DEBITO.calcularDesconto(250));
+
+        System.out.println(TipoCliente.tipoClienteNomeRelatorio("Pessoa Jurídica"));
     }
 }
