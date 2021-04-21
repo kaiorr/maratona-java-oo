@@ -102,3 +102,10 @@ o método com nome diferente do nativo.
 - [x] São tipos de campos que consistem em um conjunto fixo de constantes (static final), sendo como uma lista de valores pré-definidos. 
   Na linguagem de programação Java, pode ser definido um tipo de enumeração usando a palavra chave ``enum``. Todos os tipos enums implicitamente 
   estendem a classe ``java.lang.Enum``, sendo que o Java não suporta herança múltipla, não podendo estender nenhuma outra classe.
+  
+- [x] Enumeração part.2, foi utilizados atributos de identificação ``valor`` e ``nomeRelatorio`` primeiro para identificação do mesmo ao
+ser inserido na base de dados e outro para formatação do nome em relatórios. No construtor da Enum Class ``TipoCliente`` foram inseridos
+  esses atributos e para impressão no console os mesmos foram adicionados no ``toString`` con ``tipoCliente.getValor()`` e
+  ``tipoCliente.getNomeRelatorio()``.
+  
+- [x] Enumeração part.3, foi apresentado mais um caso de uso com cálculo de desconto em tipo de pagamento com ``abstract``.
