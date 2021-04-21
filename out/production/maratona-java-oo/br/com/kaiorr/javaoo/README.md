@@ -87,11 +87,18 @@ extende os atributos de pessoa, porém também precisa realizar a impressão de 
   
 ### Sobrescrita método toString()
 
-- [x] método nativo para sobrescita de atributos, onde é necessário utilização do ``Override`` para informar caso seja importado
+- [x] método nativo para sobrescita de atributos, onde é necessário a utilização do ``Override`` para informar caso seja importado
 o método com nome diferente do nativo.
   
 ### Modificador Final
 
-- [x] Para definir constante. Ex: Objeto Carro, atributo ``VELOCIDADE_LIMITE = 250``. 
+- [x] Para definir como constante. Ex: Objeto Carro, atributo ``VELOCIDADE_LIMITE = 250``. 
 - [x] Geralmente utilizado para implementar padrão de projeto ``Singleton``.
-- [x] 
+- [x] Caso alguma classe estiver com modificador ``final`` não pode ser extendida.
+- [x] Caso for utilizado em algum método, não será possível realizar a sobrescrita do método.
+
+### ENUM
+
+- [x] São tipos de campos que consistem em um conjunto fixo de constantes (static final), sendo como uma lista de valores pré-definidos. 
+  Na linguagem de programação Java, pode ser definido um tipo de enumeração usando a palavra chave ``enum``. Todos os tipos enums implicitamente 
+  estendem a classe ``java.lang.Enum``, sendo que o Java não suporta herança múltipla, não podendo estender nenhuma outra classe.
