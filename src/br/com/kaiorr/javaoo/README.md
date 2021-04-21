@@ -111,3 +111,8 @@ ser inserido na base de dados e outro para formatação do nome em relatórios. 
 - [x] Enumeração part.3, foi apresentado mais um caso de uso com cálculo de desconto em tipo de pagamento com ``abstract``.
 
 - [x] Enumeração part4, apresenta uma forma de utilizar a busca por atributos.
+
+### Classes Abstratas
+
+- [x] Pode-se dizer que as classes abstratas servem como “modelo” para outras classes que dela herdem, não podendo ser instanciada por si só. 
+  Para ter um objeto de uma classe abstrata é necessário criar uma classe mais especializada herdando dela e então instanciar essa nova classe.
