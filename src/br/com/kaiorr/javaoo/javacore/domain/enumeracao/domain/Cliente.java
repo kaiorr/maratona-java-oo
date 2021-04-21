@@ -40,7 +40,8 @@ public class Cliente {
         return "Cliente{" +
                 "nome='" + nome + '\'' +
                 ", idade=" + idade +
-                ", tipoCliente=" + tipoCliente +
+                ", tipoCliente=" + tipoCliente.getValor() +
+                ", tipoCliente=" + tipoCliente.getNomeRelatorio() +
                 '}';
     }
 }
