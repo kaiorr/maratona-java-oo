@@ -4,11 +4,21 @@ public class Cliente {
     private String nome;
     private int idade;
     private TipoCliente tipoCliente;
+    private TipoPagamento tipoPagamento;
 
-    public Cliente(String nome, int idade, TipoCliente tipoCliente) {
+    public TipoPagamento getTipoPagamento() {
+        return tipoPagamento;
+    }
+
+    public void setTipoPagamento(TipoPagamento tipoPagamento) {
+        this.tipoPagamento = tipoPagamento;
+    }
+
+    public Cliente(String nome, int idade, TipoCliente tipoCliente, TipoPagamento tipoPagamento) {
         this.nome = nome;
         this.idade = idade;
         this.tipoCliente = tipoCliente;
+        this.tipoPagamento = tipoPagamento;
     }
 
     public String getNome() {

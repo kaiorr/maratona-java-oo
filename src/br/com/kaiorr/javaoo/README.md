@@ -107,3 +107,5 @@ o método com nome diferente do nativo.
 ser inserido na base de dados e outro para formatação do nome em relatórios. No construtor da Enum Class ``TipoCliente`` foram inseridos
   esses atributos e para impressão no console os mesmos foram adicionados no ``toString`` con ``tipoCliente.getValor()`` e
   ``tipoCliente.getNomeRelatorio()``.
+  
+- [x] Enumeração part.3, foi apresentado mais um caso de uso com cálculo de desconto em tipo de pagamento com ``abstract``.
