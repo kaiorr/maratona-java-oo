@@ -122,4 +122,6 @@ ser inserido na base de dados e outro para formatação do nome em relatórios. 
 - [x] A ``interface`` é um recurso muito utilizado para obrigar a um determinado grupo de classe a ter métodos ou propriedades em comum
 para existir em um determinado contexto, contudo os métodos podem ser implementados em cada classe de uma maneira diferente.
   
-- [x] Sempre vai prover uma implementação ontem as classe que vão utilizar esse contrato precisam utilizar o ``implements``.
+- [x] Sempre vai prover uma implementação onde as classes que vão utilizar esse contrato precisam utilizar o ``implements``.
+
+- [x] Implementado a partir da versão 8, o ``default`` permite colocar métodos concretos com funcionalidade.
