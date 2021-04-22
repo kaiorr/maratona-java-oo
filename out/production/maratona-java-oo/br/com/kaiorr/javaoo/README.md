@@ -114,4 +114,12 @@ ser inserido na base de dados e outro para formatação do nome em relatórios. 
 
 ### Classes Abstratas
 
-- [x] 
+- [x] Pode-se dizer que as classes abstratas servem como “modelo” para outras classes que dela herdem, não podendo ser instanciada por si só. 
+  Para ter um objeto de uma classe abstrata é necessário criar uma classe mais especializada herdando dela e então instanciar essa nova classe.
+  
+### Interface
+
+- [x] A ``interface`` é um recurso muito utilizado para obrigar a um determinado grupo de classe a ter métodos ou propriedades em comum
+para existir em um determinado contexto, contudo os métodos podem ser implementados em cada classe de uma maneira diferente.
+  
+- [x] Sempre vai prover uma implementação ontem as classe que vão utilizar esse contrato precisam utilizar o ``implements``.
