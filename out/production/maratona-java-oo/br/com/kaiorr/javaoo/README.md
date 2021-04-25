@@ -171,3 +171,6 @@ testar se um objeto é do tipo de uma classe, um subclasse, uma interface ou enu
 - [x] ``Error``  quando lançado é uma subclasse de erro.
 
 -[x] ``exception`` podem ser ``checked`` ou ``unchecked``. ``RunTimeException`` gerado em tempo de execução, geralmente causada pelo dev.
+  
+  - RuntimeException
+  - IllegalAguramentException
