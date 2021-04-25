@@ -165,3 +165,9 @@ testar se um objeto é do tipo de uma classe, um subclasse, uma interface ou enu
     acesso somente a classes do que estão no mesmo pacote, classes de pacotes diferentes não conseguem acessar diretamente os membros declarados
     com esse modificador de acesso. Já o modificador default permite acesso somente a classes do mesmo pacote, sendo assim, classes de pacotes
     diferentes não conseguem visualizar membros default.
+    
+### Exception and Error
+
+- [x] ``Error``  quando lançado é uma subclasse de erro.
+
+-[x] ``exception`` podem ser ``checked`` ou ``unchecked``. ``RunTimeException`` gerado em tempo de execução, geralmente causada pelo dev.
