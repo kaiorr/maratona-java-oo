@@ -19,6 +19,14 @@ a referência.
 - [x] Utilizando método de Array com ``varArgs`` onde a diferença está somente na forma como é feito a chamada, e ao 
 para o array como parâmetro no método.
   
+### Variáveis de Classe x Variáveis de Objeto
+
+- [x] Variável de classe é associada a classe, portanto, todas as instâncias daquela classe compartilham.
+  EX: ``class Bola { static String forma = "Redonda"; }``
+
+- [x] Variável de objeto, para cada instância é como se tivesse conjunto separado das variáveis de objeto.
+  EX: ``class Bola { String forma = "Redonda"; } ``
+  
 ### Acoplamento
 
 - [x] Resumidamente, acoplamento é quando uma classe conhece da outra, quando uma ou mais classes estão conectadas.
@@ -125,3 +133,35 @@ para existir em um determinado contexto, contudo os métodos podem ser implement
 - [x] Sempre vai prover uma implementação onde as classes que vão utilizar esse contrato precisam utilizar o ``implements``.
 
 - [x] Implementado a partir da versão 8, o ``default`` permite colocar métodos concretos com funcionalidade.
+
+### Polimorfismo
+
+- [x] Significa várias formas de se fazer o mesmo. Situação na qual um objeto pode se comportar de maneiras diferentes ao receber uma mensagem.
+Pode acontecer em dois tipos: 
+  - Estático ou sobrecarga
+  - Dinâmico ou Sobreposição
+  
+  - Polimorfismo Estático se dá quando temos a mesma operação implementada várias vezes na mesma classe. A escolha de qual operação será
+chamada depende da assinatura dos métodos sobrecarregados.
+  
+  - Polimorfismo Dinâmico acontece na herança, quando a subclasse sobrepõe o método original. Agora o método escolhido se dá em tempo de execução
+e não mais em tempo de compilação. A escolha de qual método será chamado depende do tipo do objeto que recebe a mensagem.
+  
+- [x] ``instanceof`` - realiza a comparação do tipo de um objeto com um determinado tipo. Ou seja, é possível utilizar esse operador para
+testar se um objeto é do tipo de uma classe, um subclasse, uma interface ou enum.
+  
+
+### Encapsulamento
+
+- [x] Aplica-se a forma de acesso aos atributos de um objeto, pode ser definido através dos seguintes modificadores de acesso:
+``private``, ``protected``, ``public`` ou ``default`` cada um desses tipos acarretam em formas diferentes de encapsulamento do código, onde pode se ter:
+
+  - Private: Membros marcados por esse modificador de acesso não podem ser acessados por outras classes da aplicação, 
+  porém a classe que contém a declaração do membro private tem acesso total aos mesmos.
+    
+  - Public: Membros marcados por esse modificador são acessíveis em qualquer lugar do código, por qualquer classe e de qualquer pacote.
+  
+  - Protectede Default: Apesar de serem bastante semelhantes, cada um tem sua particularidade. O modificador protected é utilizado para permitir
+    acesso somente a classes do que estão no mesmo pacote, classes de pacotes diferentes não conseguem acessar diretamente os membros declarados
+    com esse modificador de acesso. Já o modificador default permite acesso somente a classes do mesmo pacote, sendo assim, classes de pacotes
+    diferentes não conseguem visualizar membros default.
