@@ -29,7 +29,8 @@ quando outro valor for atribuído alguma dessas o valor anterior será substitu�
  - [x] As variáveis por tipo de referência armazenam a localização do objeto na memória.
 
 ``
-public class AcessaMetodo {
+
+    public class AcessaMetodo {
 
 	public void imprime(){
 		System.out.println("Bem Vindo ao Java!");
@@ -47,8 +48,17 @@ public class AcessaMetodo {
 ### Casting
 
 - [x] As vezes precisamos que um número quebrado seja arredondado e armazenado num número inteiro. Para fazer isso sem que haja o erro
-de compilação, é preciso ordenar que o número quebrado seja moldado(``casted``) como número inteiro. Esse process é o ``casting``.
+de compilação, é preciso ordenar que o número quebrado seja moldado(``casted``) como número inteiro. Esse processo é o ``casting``.
+  
 
+    double d3 = 3.14;
+    int i = (int) d3;
+  
+
+### Principal vantagem da Orientação Objeto
+
+- [x] Orientação a objeto ajuda e muito a se organizar e escrever menos, além de concentrar as responsabilidades nos pontos certos, flexibilizando sua aplicação,
+ encapsulando a lógica de negócio.
  
 ### Coesão
 

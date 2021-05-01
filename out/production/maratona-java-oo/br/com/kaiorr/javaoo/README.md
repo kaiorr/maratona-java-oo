@@ -1,4 +1,65 @@
 
+### O que é o JAVA ?
+
+ Java é uma linguagem de programação que nasceu na década de 90 para resolver a maioria dos problemas da época, como gerenciamento de memória,
+ponteiros, falta de bibliotecas e reecrita de código ao mudar de sistema operacional. O JAVA foi lançado em 1995 idealizado pelo James Gosling,
+considerado pai do JAVA. Em 2009 a Oracle com a Sun Microsystems que mantinha o JAVA, desde então a Oracle esta mantendo e atualizando a linguagem.
+
+Porquê o JAVA carrega o slogan ``Write onde run anywhere`` ? Isso se deve ao fato que uma vez complicado, código JAVA pode ser executado em qualquer
+sistema operacional, essa possibilidade existe porquê o código fonte roda dentro de uma JVM que esta sim, fica responsável por executar o código em determinado
+sistema operacional. Cada JVM é feito para sistema operacional diferente, porém o código escrito inicialmente não será preciso ser reescrito por esse motivo.
+
+- [x] Funcionamento da ``JVM`` - Quando compilado é gerado o ``bytecode`` código fonte que é interpretado somente pela JVM essa por sua vez faz chamadas ao
+sistema operacional que esta rodando no momento. A própria JVM é quem tira as métricas e decide onde é melhor alocar memória, entre outros.
+
+### Variáveis de Tipos primitivos
+
+- [x] São ``boolean, byte, char, short, int, long, float e double``. Variável de tipo primitivos em Java armazena exatamente o valor que foi atribuído,
+quando outro valor for atribuído alguma dessas o valor anterior será substituído pelo novo.
+  ``public class Pessoa() {
+            psvm {
+              int idade = 30;
+                sout("Sua idade é: " + idade);
+            }            
+          }``
+  
+  
+### Variáveis de Tipo Referência
+
+ - [x] As variáveis por tipo de referência armazenam a localização do objeto na memória.
+
+``
+
+    public class AcessaMetodo {
+
+	public void imprime(){
+		System.out.println("Bem Vindo ao Java!");
+	}
+
+	public static void main(String[] args) {
+		AcessaMetodo acessa = new AcessaMetodo ();
+		acessa.imprime();
+
+	}
+
+}
+``
+
+### Casting
+
+- [x] As vezes precisamos que um número quebrado seja arredondado e armazenado num número inteiro. Para fazer isso sem que haja o erro
+de compilação, é preciso ordenar que o número quebrado seja moldado(``casted``) como número inteiro. Esse processo é o ``casting``.
+  
+
+    double d3 = 3.14;
+    int i = (int) d3;
+  
+
+### Principal vantagem da Orientação Objeto
+
+- [x] Orientação a objeto ajuda e muito a se organizar e escrever menos, além de concentrar as responsabilidades nos pontos certos, flexibilizando sua aplicação,
+ encapsulando a lógica de negócio.
+ 
 ### Coesão
 
  - [x] Uma class serve a um único propósito que é abstrair o mundo real para o código.
@@ -13,7 +74,7 @@ uam variável do tipo ``primitivo`` a variável original nunca será alterada, n
 - [x] Criado um método de referência para objetos distintos no ``ImpressoraEstudante``. Podem existir várias referêcias 
 para o mesmo objeto.
 
-- [x] Criando referência dentro do objeto, utilizando a variável de referência ``this``, é feito dentro do mesmo obbjeto
+- [x] Criando referência dentro do objeto, utilizando a variável de referência ``this``, é feito dentro do mesmo objeto
 a referência.
   
 - [x] Utilizando método de Array com ``varArgs`` onde a diferença está somente na forma como é feito a chamada, e ao 
