@@ -57,7 +57,7 @@ de compilação, é preciso ordenar que o número quebrado seja moldado(``casted
 
 ### Principal vantagem da Orientação Objeto
 
-- [x] Orientação a objeto ajuda e muito a se organizar e escrever menos, além de concentrar as responsibilidades nos pontos certos, flexibilizando sua aplicação,
+- [x] Orientação a objeto ajuda e muito a se organizar e escrever menos, além de concentrar as responsabilidades nos pontos certos, flexibilizando sua aplicação,
  encapsulando a lógica de negócio.
  
 ### Coesão
