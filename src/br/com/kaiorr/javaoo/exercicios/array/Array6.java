@@ -12,7 +12,7 @@ public class Array6 {
         int len = my_array.length;
         int i = 0;
         while(i < len) {
-            if(my_array[i] == t) return i;
+            if(my_array[i] == t) return -1;
             else i = i + 1;
         }
         return Arrays.toString(new String[]{"Inexistente"});
